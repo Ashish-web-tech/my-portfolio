@@ -87,7 +87,7 @@ const Sidebar = () => {
           
           <div>
             <p className="text-[13px] text-gray-500">LOCATION</p>
-            <a href="mailto:ashishkumar376230@gmail.com" className="text-sm">
+            <a href="#" className="text-sm">
               Silvassa, DNH
             </a>
           </div>
