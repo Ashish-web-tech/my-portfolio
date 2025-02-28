@@ -10,7 +10,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 const Sidebar = () => {
 
   const [hide, setHide] = useState(false)
-  console.log(hide);
+  // console.log(hide);
   
   
 

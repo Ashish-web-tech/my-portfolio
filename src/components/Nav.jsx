@@ -7,7 +7,7 @@ const Nav = ({activePage}) => {
       <ul id="nav-ul" className="flex gap-10">
         <li>
           <a
-            href="/"
+            href="/#"
             className={`px-4 py-2 ${
               activePage === "about" ? "text-yellow-500" : "text-white"
             }`}
@@ -17,7 +17,7 @@ const Nav = ({activePage}) => {
         </li>
         <li>
         <a
-            href="/projects"
+            href="/#projects"
             className={`px-4 py-2 ${
               activePage === "projects" ? "text-yellow-500" : "text-white"
             }`}
