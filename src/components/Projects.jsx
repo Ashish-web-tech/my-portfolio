@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from "./Nav";
 import port from "../assets/img/portfolio-project-img.jpeg";
+import movies from "../assets/img/movies.png";
 
 
 
@@ -37,8 +38,12 @@ const Projects = () => {
         <div className="w-14 rounded-3xl h-1 bg-[#FDC965] absolute bottom-0 left-[40px]"></div>
       </header>
       <div id='project-card' className='flex justify-around overflow-y-auto mb-10'>
-        <ProjectsCard title = "Portfolio" mode = "Web Development" img = {port} />
-        <ProjectsCard title = "Dummy" mode = "Dummy" img = "" />
+        <a href="https://ashish-web-tech.github.io/my-portfolio/">
+          <ProjectsCard title = "Portfolio" mode = "Web Development" img = {port} />
+        </a>
+        <a href="https://main.dqttgwxr1phte.amplifyapp.com/">
+          <ProjectsCard title = "MoviesDhaba" mode = "Web Development" img = {movies} />
+        </a>
         <ProjectsCard title = "Dummy" mode = "Dummy" img = "" />
       </div>
     </div>
