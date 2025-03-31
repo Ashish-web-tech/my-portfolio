@@ -38,10 +38,10 @@ const Projects = () => {
         <div className="w-14 rounded-3xl h-1 bg-[#FDC965] absolute bottom-0 left-[40px]"></div>
       </header>
       <div id='project-card' className='flex justify-around overflow-y-auto mb-10'>
-        <a href="https://ashish-web-tech.github.io/my-portfolio/">
+        <a href="https://ashish-web-tech.github.io/my-portfolio/" target='_blank' >
           <ProjectsCard title = "Portfolio" mode = "Web Development" img = {port} />
         </a>
-        <a href="https://main.dqttgwxr1phte.amplifyapp.com/">
+        <a href="https://main.dqttgwxr1phte.amplifyapp.com/" target='_blank'>
           <ProjectsCard title = "MoviesDhaba" mode = "Web Development" img = {movies} />
         </a>
         <ProjectsCard title = "Dummy" mode = "Dummy" img = "" />

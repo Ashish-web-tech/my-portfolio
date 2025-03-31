@@ -37,7 +37,7 @@ const Nav = ({activePage}) => {
           </a>
         </li>
         <li>
-          <a href="https://drive.google.com/file/d/16N5CxcA7ufCgXsSKM5TD0b-xjTBdT1Hg/view" target="_blank">Resume</a>
+          <a href="https://drive.google.com/file/d/16gZ498Xl3x2Ee__7UVGQ_jO0GklYvIPn/view?usp=drivesdk" target="_blank">Resume</a>
         </li>
       </ul>
     </div>
